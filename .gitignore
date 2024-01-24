@@ -1,2 +1,4 @@
 files/.ipynb_checkpoints/
 .DS_Store
+/modules/.venv
+/modules/.DS_Store
