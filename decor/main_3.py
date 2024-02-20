@@ -1,6 +1,6 @@
 import os
 from datetime import datetime
-from ..modules.application.salary import calculate_salary
+from modules.application.salary import calculate_salary
 
 def logger(path):
 
@@ -19,7 +19,7 @@ def logger(path):
 
 
 def test_3():
-    paths = ('log_1.log')
+    paths = ('log_decor.log')
 
     for path in paths:
         if os.path.exists(path):
